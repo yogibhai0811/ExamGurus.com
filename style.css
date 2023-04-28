@@ -38,7 +38,7 @@
             background-image: url("./books\ imge.jpeg");
             background-repeat: no-repeat;
             background-size: cover;
-            opacity: 0.4; /* Decrease opacity to 0.8 */
+            opacity: 0.2; /* Decrease opacity to 0.8 */
             z-index: -1; /* Place the pseudo-element behind the content */
         }
           footer {
@@ -112,6 +112,48 @@
             height: 30%;
         }
         #box button{
-width: 20%;
+    width: 20%;
 
+        }
+        #menu{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+        }
+
+        .menue{
+            border-radius: 5px;
+            width: 30%;
+            height: 150px;
+            margin: 15px;
+            background-color: orange;
+
+
+          }
+
+          .menue:hover{
+            border:2px solid black;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+          }
+         
+        #first{
+            background-image: url("./colege.jpeg");
+        }
+        #second{
+            background-image:url("./coding\ image.jpeg");
+        }
+        #third{
+            background-image: url("./Ncert\ img.jpeg");
+        }
+        #fourt{
+            background-image: url("./iit\ jee.jpeg");
+        }
+        #five{
+            background-image: url("./neet\ img.jpeg");
+        }
+        #sixth{
+            background-image: url("./Enginnering.jpeg");
         }
