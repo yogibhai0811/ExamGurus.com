@@ -48,7 +48,7 @@
             color: #fff;
         }
         .social-icons {
-            font-size: 24px;
+            font-size: 35px;
             margin-right: 10px;
         }
         .contact-number {
@@ -62,4 +62,56 @@
         .contact-number {
             color: blue;
           
+        }
+
+        #youtube{
+            color:red;
+        }
+
+        #insta{
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            text-align: center;
+            /* border-radius:40px; */
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            color: #fff;
+            font-size: 33px;
+            line-height: 45px;
+            background: #d6249f;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+            box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+        }
+
+        #facebook{
+            background-color: linear-gradient(#3b5998, #ffffff);
+            
+        }
+
+        #facebook:hover{
+            border-radius: 50%;
+            box-shadow: 0 0 10px #3b5998;
+           
+        }
+
+        #socialIcon{
+            margin: 20px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        justify-content: center;
+        
+        }
+        #socialIcon div{
+            margin-left:20px ;
+        }
+        #box{
+            height: 30%;
+        }
+        #box button{
+width: 20%;
+
         }
